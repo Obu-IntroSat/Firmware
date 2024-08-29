@@ -27,7 +27,7 @@
 // 15 - 2Mbps 320x240 grayscale //LGT не работает
 // 16 - 2Mbps 640x480 rgb //LGT не работает
 // 17 - 2Mbps 640x480 grayscale //LGT не работает
-#define UART_MODE 1
+#define UART_MODE 2
 
 
 
@@ -62,7 +62,7 @@ void processGrayscaleFrameBuffered();
 void processGrayscaleFrameDirect();
 void processRgbFrameBuffered();
 void processRgbFrameDirect();
-typedef void (*ProcessFrameData)(void) ;
+typedef void (*ProcessFrameData)(void);
 
 
 #if UART_MODE==1
@@ -73,7 +73,7 @@ const ProcessFrameData processFrameData = processRgbFrameBuffered;
 const uint16_t lineBufferLength = lineLength * 2;
 const bool isSendWhileBuffering = true;
 const uint8_t uartPixelFormat = UART_PIXEL_FORMAT_RGB565;
-CameraOV7670 camera(CameraOV7670::RESOLUTION_QQVGA_160x120, CameraOV7670::PIXEL_RGB565, 34);
+CameraOV7670 camera(CameraOV7670::RESOLUTION_QQVGA_160x120, CameraOV7670::PIXEL_RGB565, 63);
 #endif
 
 #if UART_MODE==2
@@ -84,7 +84,7 @@ const ProcessFrameData processFrameData = processGrayscaleFrameBuffered;
 const uint16_t lineBufferLength = lineLength;
 const bool isSendWhileBuffering = true;
 const uint8_t uartPixelFormat = UART_PIXEL_FORMAT_GRAYSCALE;
-CameraOV7670 camera(CameraOV7670::RESOLUTION_QQVGA_160x120, CameraOV7670::PIXEL_YUV422, 17);
+CameraOV7670 camera(CameraOV7670::RESOLUTION_QQVGA_160x120, CameraOV7670::PIXEL_YUV422, 63);
 #endif
 
 #if UART_MODE==3
@@ -288,7 +288,7 @@ void initializeScreenAndCamera() {
   //CLKPR = 0x80; // enter clock rate change mode
   //CLKPR = 1; // set prescaler to 1. WAVGAT MCU has it 3 by default.
 
-  Serial.begin(baud);
+  Serial.begin(baud/2);
   if (camera.init()) {
  //   sendBlankFrame(COLOR_GREEN);
   //  delay(20000);
