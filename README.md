@@ -17,24 +17,24 @@
 
 ## Актуальные прошивки для последних версий
 
-[CM_2.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/CM_2.x.elf) - Прошивка для платы камеры версии 2.0 и выше
+[CM_2.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/CM_2.x.elf) - Прошивка для платы камеры версии 2.0 и выше
 
-[FM_4.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_4.x.elf) - Прошивка платы маховика версии 4.0 и выше
+[FM_4.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/FM_4.x.elf) - Прошивка платы маховика версии 4.0 и выше
 
-[eSE_1.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/eSE_1.x.elf) - Прошивка платы имитатора солнечной батареи
+[eSE_1.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/eSE_1.x.elf) - Прошивка платы имитатора солнечной батареи
 
-[MM_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/MM_1.0-2.x.bin) - Прошивка платы мультиметра версии 1.0 и выше
+[MM_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/MM_1.0-2.x.bin) - Прошивка платы мультиметра версии 1.0 и выше
 
-[SO_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/SO_1.0-2.x.bin) - Прошивка платы оптического датчика версии 1.0 и выше
+[SO_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/SO_1.0-2.x.bin) - Прошивка платы оптического датчика версии 1.0 и выше
 
 ## Прошивки для предыдущих версий плат
 Файлы можно найти в папке [Archive](./Archive/)
 
-[FM_1.01-1.6.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_1.01-1.6.bin) - Прошивка платы маховика версий 1.01-1.6
+[FM_1.01-1.6.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/FM_1.01-1.6.bin) - Прошивка платы маховика версий 1.01-1.6
 
-[FM_1.75-2.1.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_1.75-2.1.bin) - Прошивка платы маховика версий 1.75-2.1
+[FM_1.75-2.1.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/FM_1.75-2.1.bin) - Прошивка платы маховика версий 1.75-2.1
 
-[FM_3.0-3.3.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_3.0-3.3.bin) - Прошивка платы маховика версий 3.0-3.3
+[FM_3.0-3.3.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/main/FM_3.0-3.3.bin) - Прошивка платы маховика версий 3.0-3.3
 
 [CM_1.X](./Archive/LiveOV7670) - Прошивка платы камеры версий 1.x 
 
