@@ -6,13 +6,13 @@
 
 [CM_2.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/CM_2.x.elf) - Прошивка для платы камеры версии 2.0 и выше
 
-[FM_4.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_4.x.elf) - Прошивка платы маховика версий 4.0 и выше
+[FM_4.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/FM_4.x.elf) - Прошивка платы маховика версии 4.0 и выше
 
 [eSE_1.x.elf](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/eSE_1.x.elf) - Прошивка платы имитатора солнечной батареи
 
-[MM_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/MM_1.0-2.x.bin) - Прошивка платы мультиметра версий 1.0 и выше
+[MM_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/MM_1.0-2.x.bin) - Прошивка платы мультиметра версии 1.0 и выше
 
-[SO_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/SO_1.0-2.x.bin) - Прошивка платы оптического датчика версий 1.0 и выше
+[SO_1.0-2.x.bin](https://raw.githubusercontent.com/Obu-IntroSat/Firmware/upd/naming/SO_1.0-2.x.bin) - Прошивка платы оптического датчика версии 1.0 и выше
 
 ## Прошивки для предыдущих версий плат
 Файлы можно найти в папке [Archive](./Archive/)
@@ -26,7 +26,7 @@
 [CM_1.X](./Archive/LiveOV7670) - Прошивка платы камеры версий 1.x 
 
 > [!CAUTION]
-> В камерах версии 1.x использовался микроконтроллер LGT8F328P, эти платы необходимо прошивать через Arduino IDE.
+> В камерах версии 1.x использовался микроконтроллер LGT8F328P, эти платы необходимо прошивать через Arduino IDE, используя в качестве программатора оригинальную Arduino Uno или ISP-программатор.
 > Исходный код прошивки для камеры: https://github.com/indrekluuk/LiveOV7670.
 
  ## Полезные ссылки
